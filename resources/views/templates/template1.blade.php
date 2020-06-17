@@ -13,8 +13,12 @@
 @endpush
 
 @section('content')
-<div class="form-conatiner template-conatiner">
-    @include('templates.pdfbtn')
-    @include('templates.html.t1')
+<div class="container">
+    <div class="col-lg-10 mx-auto">
+        <div class="form-conatiner">
+            @include('templates.pdfbtn')
+            @include('templates.html.t1')
+        </div>
+    </div>
 </div>
 @endsection

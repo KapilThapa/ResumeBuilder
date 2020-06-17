@@ -52,6 +52,7 @@
         <label for="gpa">GPA</label>
         <input type="text" class="form-control" name="gpa" id="gpa" value="{{ isset($input['gpa']) ? $input['gpa'] : ''  }}" placeholder="Enter the GPA earned">
     </div>
+    <a href="{{route('resume.get.works')}}" class="btn btn-primary">Back</a>
     <button type="submit" class="btn btn-primary">Next</button>
 </form>
 @endsection

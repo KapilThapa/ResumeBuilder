@@ -32,6 +32,7 @@
         <label for="summary">Job Description</label>
         <textarea class="form-control" name="summary" id="summary" rows="3">{{ isset($input['summary']) ? $input['summary'] : ''  }}</textarea>
     </div>
+    <a href="{{route('resume.get.basics')}}" class="btn btn-primary">Back</a>
     <button type="submit" class="btn btn-primary">Next</button>
 </form>
 @endsection

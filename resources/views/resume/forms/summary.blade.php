@@ -7,6 +7,7 @@
     <label for="summary">Summary</label>
     <textarea class="form-control" name="summary" id="summary" rows="3">{{ isset($input['summary']) ? $input['summary'] : ''  }}</textarea>
   </div>
+  <a href="{{route('resume.get.references')}}" class="btn btn-primary">Back</a>
   <button type="submit" class="btn btn-primary">Finish</button>
 </form>
 @endsection
